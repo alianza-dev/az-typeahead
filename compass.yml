@@ -1,0 +1,40 @@
+name: az-typeahead
+id: ari:cloud:compass:f37c5a9d-90b5-43f8-a9eb-8f048c9233d4:component/6df743a6-3902-4746-a525-8195326b28dd/1a44d60a-9b3f-4963-b737-f16e9df674f9
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/alianza-dev/az-typeahead
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: AWS Account Name and Number
+    type: text
+    value: null
+  - name: AWS Account Number
+    type: multi_select
+    value: null
+  - name: AWS Regions
+    type: multi_select
+    value: null
+  - name: Compliance Scopes
+    type: multi_select
+    value: null
+  - name: Domain
+    type: text
+    value: null
+  - name: Okta Group Name
+    type: multi_select
+    value: null
+  - name: Passed Architectural Review
+    type: boolean
+    value: false
+  - name: Passed Reliability Audit
+    type: boolean
+    value: false
